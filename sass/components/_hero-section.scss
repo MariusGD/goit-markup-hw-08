@@ -1,0 +1,65 @@
+/* HERO SECTION */
+
+/* Mobil    --> MAXIM  480px */
+
+/* Tableta  --> FROM 481px TO 1200px */
+@media screen and (min-width: $tablet-breakpoint) {
+}
+
+/* Desktop  --> SCSS over 1200px */
+@media screen and (min-width: $desktop-breakpoint) {
+}
+
+.hero,
+.footer {
+  background-color: var(--background-color-one);
+  max-width: 1600px;
+}
+
+.hero {
+  height: 600px;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding-left: 452px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url("../images/bg-hero\ section.jpg");
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__title {
+  color: var(--color-four);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  letter-spacing: 0.06em; /* = 6% */
+  text-transform: uppercase;
+  text-align: center;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+}
+
+.hero__button {
+  color: var(--color-four);
+  background-color: var(--background-color-four);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  padding: 10px 19px 10px 20px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  margin-left: 248px;
+  margin-top: 10px;
+}

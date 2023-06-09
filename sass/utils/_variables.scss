@@ -1,0 +1,28 @@
+/* VARIABLE SCSS*/
+$mobil-breakpoint: 320px;
+$tablet-breakpoint: 480px;
+$desktop-breakpoint: 768px;
+
+:root {
+  /* TEXT FONT */
+  --logo-font: "Raleway", sans-serif; /* logo */
+  --site-font: "Roboto", sans-serif; /* text website */
+  /* TEXT COLOR */
+  --color-one: #212121; /* NAVI PAGES, h3 */
+  --color-two: #757575; /* p, TELEFON HEADER  */
+  --color-three: #2196f3; /* WEBSTUDIO - header */
+  --color-four: #ffffff; /* h1, butoane text, LOGO FOOTER,   */
+  --color-five: #000000;
+  --footer-adresss-color: #ffff00;
+  /* BACKGROUND COLOR */
+  --background-color-one: #2f303a; /* HERO, FOOTER  */
+  --background-color-two: #e5e5e5; /* BENEFITS and WHAT WE DO , Buttons&Products sections */
+  --background-color-three: #f5f4fa; /*----------- TEAM SECTION------------  */
+  --background-color-four: #2196f3; /*  --------- BUTTONS PORTOFOLIO AND HERO -------------- */
+  --header-border-color: #ececec;
+  --item-product: 30px;
+  --border-card: #eeeeee;
+  --social-icon-color: #afb1b8;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+

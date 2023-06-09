@@ -1,0 +1,51 @@
+/* REGULAR CUSTOMERS */
+
+/* Mobil    --> MAXIM  480px */
+
+/* Tableta  --> FROM 481px TO 1200px */
+@media screen and (min-width: $tablet-breakpoint) {
+}
+
+/* Desktop  --> SCSS over 1200px */
+@media screen and (min-width: $desktop-breakpoint) {
+}
+
+.customers {
+  display: flex;
+}
+
+.customers__item {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+
+.customers__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  color: var(--social-icon-color);
+  fill: currentColor;
+
+  &:hover,
+  &:focus {
+    color: var(--color-three);
+    border: 1px solid var(--color-three);
+    transition: var(--transition);
+  }
+}
+
+.customers__heading {
+  margin-top: 94px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-one);
+}

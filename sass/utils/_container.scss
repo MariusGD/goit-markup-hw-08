@@ -1,0 +1,21 @@
+/* Mobil    --> MAXIM  480px */
+
+.container {
+  max-width: 480px;
+}
+
+/* Tableta  --> FROM 481px TO 1200px */
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .container {
+    max-width: 768px; /* =Max pt tableta */
+  }
+}
+
+/* Desktop  --> SCSS over 1200px */
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .container {
+    max-width: 1600px; /* Max pt desktop */
+  }
+}
